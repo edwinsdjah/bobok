@@ -22,7 +22,7 @@ const HeaderSection = ({
           <h1 className='text-5xl font-bold leading-tight capitalize'>
             {title}
           </h1>
-          <p className='text-xl font-gray-300'>{subtitle  }</p>
+          <p className='text-xl font-gray-300'>{subTitle}</p>
         </div>
       </div>
     </header>
