@@ -8,7 +8,7 @@ const Card = () => {
     <div className='bg-white shadow-lg rounded-sm transition-duration-100 hover:shadow-sm'>
       <div className='h-[260px] w-auto rounded-t-sm relative'>
         <Image
-          src=''
+          src='/logo.jpg'
           width={384}
           height={256}
           alt='room image'
