@@ -2,7 +2,7 @@
 import { ContactSchema } from './zod';
 import { prisma } from './prisma';
 
-export const ContactMesage = async () => {
+export const ContactMesage = async (prevState: unknown, formData: FormData) => {
   const validatedFields = ContactSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
